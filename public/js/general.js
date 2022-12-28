@@ -5,7 +5,8 @@ $(() => {
   // TODO: Adicionar el service worker
 
   // Init Firebase nuevamente
-  firebase.initializeApp(config);
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
 
   // TODO: Registrar LLave publica de messaging
 
